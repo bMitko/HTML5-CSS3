@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>Dado Tea Lunch Special</h2>
+    <p>
+        Monday through Friday <br />
+        11am - 3pm <br />
+        $9.95 plus tax
+    </p>
+    <p> Includes sandwich, snack and drink </p>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Order Information</legend>
+            <p></p>
+
+            <label for="name"><b>Name:</b></label><br />
+            <input type="text" name="name" id="name" placeholder="Enter your name" required />
+
+            <p></p>
+
+            <input type="radio" name="where" id="here" value="here" required />
+            <label for="here">Here</label><br />
+
+            <input type="radio" name="where" id="to go" value="to go" required />
+            <label for="to go">To go</label>
+        </fieldset>
+        <fieldset>
+            <legend>Sandwiches</legend>
+            <p></p>
+            <b>Monday</b><br />
+
+            <input type="radio" name="monday" id="option1" value="option1" />
+            <label for="option1">Tomato Mozzarella</label><br />
+
+            <input type="radio" name="monday" id="option2" value="option2" />
+            <label for="option2">Chicken Salad</label>
+
+            <p></p>
+            <b>Tuesday</b><br />
+
+            <input type="radio" name="tuesday" id="option1" value="option1" />
+            <label for="option1">Greek Salad Wrap</label><br />
+
+            <input type="radio" name="tuesday" id="option2" value="option2" />
+            <label for="option2">Toto Wrap</label>
+
+            <p></p>
+            <b>Wednesday</b><br />
+
+            <input type="radio" name="wednesday" id="option1" value="option1" />
+            <label for="option1">Red Pepper Hummus</label><br />
+
+            <input type="radio" name="wednesday" id="option2" value="option2" />
+            <label for="option2">Roasted Turkey</label>
+
+            <p></p>
+            <b>Thursday</b><br />
+
+            <input type="radio" name="thursday" id="option1" value="option1" />
+            <label for="option1">Carrot-Ginger Hummus Wrap</label><br />
+
+            <input type="radio" name="thursday" id="option2" value="option2" />
+            <label for="option2">Egg Salad</label>
+
+            <p></p>
+            <b>Friday</b><br />
+
+            <input type="radio" name="friday" id="option1" value="option1" />
+            <label for="option1">Dado Wrap</label><br />
+
+            <input type="radio" name="friday" id="option2" value="option2" />
+            <label for="option2">Tuna Salad</label>
+
+            <hr>
+            <p></p>
+
+            <input type="checkbox" name="gluten" id="gluten" value="gluten" />
+            <label for="gluten">Gluten Free Bread (75¢ extra)</label>
+
+            <p></p>
+        </fieldset>
+        <fieldset>
+            <legend>Snack</legend>
+            <p></p>
+            <b>Snacks</b><br />
+
+            <input type="radio" name="snack" id="snack1" value="snack1" />
+            <label for="snack1">Apple</label><br />
+
+            <input type="radio" name="snack" id="snack2" value="snack2" />
+            <label for="snack2">Banana</label><br />
+
+            <input type="radio" name="snack" id="snack3" value="snack3" />
+            <label for="snack3">Potato Chips</label><br />
+            <p></p>
+        </fieldset>
+        <fieldset>
+            <legend>Drink</legend>
+            <p></p>
+            <b>Drinks</b> (regular size)<br />
+
+            <label for="drinks"></label>
+            <select name="drinks" id="drinks">
+                <option value="" selected hidden disabled>Select drink</option>
+                <option value="coffee1">Hot Coffee</option>
+                <option value="coffee2">Iced Coffee</option>
+                <option value="peppermint">Organic Peppermint</option>
+                <option value="sencha1">Hot Sencha Green Tea</option>
+                <option value="sencha2">Iced Sencha Green Tea</option>
+                <option value="keemun1">Hot Keemun Black Tea</option>
+                <option value="keemun2">Iced Keemun Black Tea</option>
+            </select>
+
+            <hr>
+            <p></p>
+
+            <input type="checkbox" name="size" id="size" value="size" />
+            <label for="size">Large drink (75¢ extra)</label>
+
+            <p></p>
+        </fieldset>
+
+        <p></p>
+        <button type="submit">Order</button>
+    </form>
+</body>
+
+</html>
