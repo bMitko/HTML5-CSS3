@@ -1,0 +1,26 @@
+*{
+    background-color: lightblue;
+}
+
+header{
+    color: #9f0404
+}
+
+p{
+    background-color: rgb(242, 242, 81);
+    width: fit-content;
+}
+
+.ListItems{
+    border: 1px solid rgba(0, 68, 255, 0.9);
+    width: fit-content;
+}
+
+button{
+    color: hsl(128, 86%, 67%);
+    background-color: hsla(350, 62%, 55%, 0.75);
+}
+
+button:hover{
+    background-color: rgb(0, 111, 0)
+}
